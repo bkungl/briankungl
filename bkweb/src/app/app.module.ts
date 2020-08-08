@@ -12,6 +12,7 @@ import { SearchdisplayComponent } from './resume/base/searchdisplay/searchdispla
 import { EducationComponent } from './resume/base/education/education.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { JobComponent } from './resume/base/jobdisplay/job/job.component';
+import {MAT_FORM_FIELD_DEFAULT_OPTIONS} from '@angular/material/form-field';
 
 
 
@@ -22,6 +23,7 @@ import {MatTabsModule} from '@angular/material/tabs';
 import { BaseComponent } from './resume/base/base.component';
 import { PortfolioComponent } from './resume/portfolio/portfolio.component';
 import { LearningComponent } from './resume/learning/learning.component'; 
+
 
 @NgModule({
   declarations: [
@@ -47,7 +49,9 @@ import { LearningComponent } from './resume/learning/learning.component';
       MatIconModule, 
       MatTabsModule
   ],
-  providers: [],
+  providers: [
+    { provide: MAT_FORM_FIELD_DEFAULT_OPTIONS, useValue: { appearance: 'fill' } },
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
