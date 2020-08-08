@@ -23,6 +23,9 @@ import {MatTabsModule} from '@angular/material/tabs';
 import { BaseComponent } from './resume/base/base.component';
 import { PortfolioComponent } from './resume/portfolio/portfolio.component';
 import { LearningComponent } from './resume/learning/learning.component'; 
+import {MatMenuModule} from '@angular/material/menu';
+import { ContactComponent } from './contact/contact.component';
+import { AboutComponent } from './about/about.component'; 
 
 
 @NgModule({
@@ -38,7 +41,9 @@ import { LearningComponent } from './resume/learning/learning.component';
     JobComponent,
     BaseComponent,
     PortfolioComponent,
-    LearningComponent
+    LearningComponent,
+    ContactComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
@@ -47,7 +52,8 @@ import { LearningComponent } from './resume/learning/learning.component';
       MatButtonToggleModule,
       MatToolbarModule, 
       MatIconModule, 
-      MatTabsModule
+      MatTabsModule,
+      MatMenuModule
   ],
   providers: [
     { provide: MAT_FORM_FIELD_DEFAULT_OPTIONS, useValue: { appearance: 'fill' } },
