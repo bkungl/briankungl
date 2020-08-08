@@ -11,6 +11,7 @@ import { SearchComponent } from './resume/search/search.component';
 import { SearchdisplayComponent } from './resume/searchdisplay/searchdisplay.component';
 import { EducationComponent } from './resume/education/education.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { JobComponent } from './resume/jobdisplay/job/job.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     JobdisplayComponent,
     SearchComponent,
     SearchdisplayComponent,
-    EducationComponent
+    EducationComponent,
+    JobComponent
   ],
   imports: [
     BrowserModule,
