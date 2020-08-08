@@ -13,6 +13,12 @@ import { EducationComponent } from './resume/education/education.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { JobComponent } from './resume/jobdisplay/job/job.component';
 
+
+
+import {MatButtonToggleModule} from '@angular/material/button-toggle'; 
+import {MatToolbarModule} from '@angular/material/toolbar'; 
+import {MatIconModule} from '@angular/material/icon'; 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,7 +34,10 @@ import { JobComponent } from './resume/jobdisplay/job/job.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+      MatButtonToggleModule,
+      MatToolbarModule, 
+      MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]
