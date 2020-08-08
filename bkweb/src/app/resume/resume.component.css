@@ -1,0 +1,9 @@
+label {
+    color: black;
+}
+
+.example-stretched-tabs {
+    margin-top: -15px;
+    width: 100vw / 3;
+    color: black;
+}

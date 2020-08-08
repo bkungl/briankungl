@@ -1,8 +1,11 @@
-<app-header></app-header>
-<app-search></app-search>
-
-<app-education></app-education>
-
-
-
-<app-jobdisplay></app-jobdisplay>
+<mat-tab-group mat-stretch-tabs class="example-stretched-tabs mat-elevation-z4">
+    <mat-tab label="Resume" class="col-4">
+        <app-base></app-base>
+    </mat-tab>
+    <mat-tab label="Learning" class="col-4">
+        <app-learning></app-learning>
+    </mat-tab>
+    <mat-tab label="Portfolio" class="col-4">
+        <app-portfolio></app-portfolio>
+    </mat-tab>
+</mat-tab-group>

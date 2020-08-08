@@ -1,0 +1,46 @@
+<div class="container">
+    <div class="card" *ngFor="let job of jobs; index as i;">
+        <div class="row">
+            <div class="col-md-4 col-sm-12 title">
+                <h4 class="col-12">Job Title</h4>
+                <h3 class="col-12"><strong>{{job.jobTitle}}</strong></h3>
+            </div>
+            <div class="col-md-4 col-sm-12 employer">
+                <h4 class="col-12">Employer</h4>
+                <h3 class="col-12"><strong>{{job.employer}}</strong></h3>
+            </div>
+            <div class="col-md-4 col-sm-12 location">
+                <h4 class="col-12">Location</h4>
+                <h3 class="col-12"><strong>{{job.location}}</strong></h3>
+            </div>
+
+            <div class="col-12 duration">
+                <p><strong>Duration:</strong> {{job.startDate}} - {{job.endDate}}</p>
+                <!--            make this {{job.start}} - {{job.end}}-->
+            </div>
+
+        </div>
+        <hr>
+
+        <div class="description">
+            <h3>Job Details:</h3>
+            <ul>
+                <li *ngFor="let detail of job.description; index as j">
+                    {{detail}}
+                </li>
+            </ul>
+        </div>
+
+        <div class="skills">
+            <h3>Technologies Used:</h3>
+            <ul>
+                <li *ngFor="let detail of job.technologies; index as k">
+                    {{detail}}
+                </li>
+            </ul>
+        </div>
+
+
+
+    </div>
+</div>

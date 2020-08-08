@@ -1,0 +1,45 @@
+[
+    {
+        "jobId": 1,
+        "jobTitle": "Front End Engineer",
+        "employer": "D150 Fueling, LLC",
+        "location": "Newark, DE",
+        "startDate": "January 1, 2018",
+        "endDate": "June 1, 2018",
+        "description": [
+            "This was a remote role where I worked alone to develop https://www.d150fueling.com",
+            "I reported to my manager weekly using Agile methodologies"
+        ],
+        "technologies": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "jQuery",
+            "Google Domains",
+            "GSuite"
+        ]
+  },
+
+    {
+        "jobId": 2,
+        "jobTitle": "Software Engineer Intern",
+        "employer": "EDSI",
+        "location": "Cleveland, OH",
+        "startDate": "May 14, 2017",
+        "endDate": "August 14, 2017",
+        "description": [
+            "This role consisted of refactoring a client's (Banyan Tech) legacy codebase using C# and working on EDSI's in-house ticketing system using Angular",
+            "We utilized scrum to stay on task in a team of 10 interns",
+            "Debugged existing and new code"
+        ],
+        "technologies": [
+            "TFS",
+            "Angular",
+            "Version Control",
+            "C#",
+            "HTML",
+            "CSS",
+            "TypeScript"
+        ]
+  }
+]

@@ -11,5 +11,11 @@ export class JobdisplayComponent implements OnInit {
 
   ngOnInit(): void {
   }
+    
+    
+    
+
+
+
 
 }
