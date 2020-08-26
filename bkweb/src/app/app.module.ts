@@ -15,6 +15,9 @@ import { JobComponent } from './resume/base/jobdisplay/job/job.component';
 import {MAT_FORM_FIELD_DEFAULT_OPTIONS} from '@angular/material/form-field';
 
 
+import {MatExpansionModule} from '@angular/material/expansion'; 
+
+
 
 import {MatButtonToggleModule} from '@angular/material/button-toggle'; 
 import {MatToolbarModule} from '@angular/material/toolbar'; 
@@ -55,7 +58,8 @@ import { ExperienceComponent } from './resume/base/experience/experience.compone
       MatToolbarModule, 
       MatIconModule, 
       MatTabsModule,
-      MatMenuModule
+      MatMenuModule,
+      MatExpansionModule
   ],
   providers: [
     { provide: MAT_FORM_FIELD_DEFAULT_OPTIONS, useValue: { appearance: 'fill' } },

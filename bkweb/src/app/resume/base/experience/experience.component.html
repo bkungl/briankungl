@@ -4,7 +4,7 @@
     </div>
     <hr>
 
-    <div class="text-center col-md-6 offset-md-4 col-sm-6 offset-sm-4 col-lg-6 offset-lg-3 col-xs-10 offset-sm-2">
+    <div class="text-center col-md-8 offset-md-2 col-sm-8 offset-sm-2 col-lg-8 offset-lg-2 col-xs-10 offset-sm-2">
         <div class="card" style="" *ngFor="let job of jobs; index as i;">
             <div class="card-header">
                 <h6 class="card-date  text-muted">{{job.startDate}} - {{job.endDate}} </h6>
@@ -16,7 +16,19 @@
                 <hr>
                 <p class="card-text">{{job.shortDescription}}</p>
 
-                <a href="#" class="card-linkb">Read More >></a>
+                <mat-expansion-panel hideToggle class="panel">
+                    <mat-expansion-panel-header class="row">
+                        <mat-panel-description class="offset-lg-5 offset-md-4 offset-sm-3 text-center">
+                            <p>Read More</p>
+                        </mat-panel-description>
+
+                    </mat-expansion-panel-header>
+                    <ul>
+                        <li *ngFor="let details of job.moreDetails; index as j" style="margin-bottom: 1rem;">{{job.moreDetails[j]}}</li>
+                    </ul>
+                </mat-expansion-panel>
+
+
             </div>
         </div>
 

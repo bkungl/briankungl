@@ -3,3 +3,8 @@
 }
 
 .example-icon {}
+
+.toolbar {
+    /*background-color: cadetblue;*/
+    background-color: lightgrey;
+}

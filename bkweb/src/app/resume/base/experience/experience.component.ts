@@ -8,6 +8,7 @@ import  *  as  data  from  './../../../../assets/jobs.json';
 export class ExperienceComponent implements OnInit {
 
     jobs:  any  = (data  as  any).default;  
+    panelOpenState = false;
     
   constructor() { }
 
