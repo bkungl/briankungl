@@ -1,14 +1,18 @@
 [
     {
         "jobId": 1,
-        "jobTitle": "Front End Engineer",
+        "jobTitle": "Web Developer",
         "employer": "D150 Fueling, LLC",
         "location": "Newark, DE",
-        "startDate": "January 1, 2018",
-        "endDate": "June 1, 2018",
-        "description": [
-            "This was a remote role where I worked alone to develop https://www.d150fueling.com",
-            "I reported to my manager weekly using Agile methodologies"
+        "startDate": "February 1, 2018",
+        "endDate": "September 1, 2018",
+        "shortDescription": [
+            "I was the web developer for D150 Fueling where I compiled the ideas of the owners and developed their website using HTML, CSS, JavaScript, jQuery, and Bootstrap."
+        ],
+        "moreDetails": [
+            "Led the campaign to design, develop, and host D150Fueling which has reached 1,000 clicks and 40,000 impressions since tracking started 6/2019",
+            "Applied knowledge of HTML, CSS, JavaScript, jQuery, and Bootstrap to shape the startup owners’ ideas to build a well-designed and useful web presence",
+            "Remote sprints with weekly in-person scrum meetings to confirm product vision"
         ],
         "technologies": [
             "HTML",
@@ -16,21 +20,53 @@
             "JavaScript",
             "jQuery",
             "Google Domains",
-            "GSuite"
+            "GSuite",
+            "Bootstrap",
+            "Agile Development"
         ]
   },
 
     {
-        "jobId": 2,
+        "jobId": 1,
+        "jobTitle": "Software Researcher",
+        "employer": "Univeristy of Delaware Vertically Integrated Projects",
+        "location": "Newark, DE",
+        "startDate": "August 14, 2017",
+        "endDate": "June 1, 2018",
+        "shortDescription": [
+            "I was one of the two software developers for a multi-disciplinary research group studying vehicle detection and traffic analysis using YOLO v2 and OpenCV python scripts on drone footage."
+        ],
+        "moreDetails": [
+            "Collaborated with a multidisciplinary team to study object detection using drone footage for traffic analysis for the Delaware Department of Transportation",
+            "Scripted using Python, OpenCV, and YOLO v2 to perform real-time detection of vehicles from video files using the University of Delaware’s supercomputer"
+
+        ],
+        "technologies": [
+            "Python",
+            "OpenCV",
+            "YoloV2",
+            "Slack",
+            "GitHub",
+            "Git"
+        ]
+  },
+
+
+
+    {
+        "jobId": 3,
         "jobTitle": "Software Engineer Intern",
         "employer": "Enterprise Data Solutions, inc",
         "location": "Cleveland, OH",
         "startDate": "May 14, 2017",
         "endDate": "August 14, 2017",
-        "description": [
-            "This role consisted of refactoring a client's (Banyan Tech) legacy codebase using C# and working on EDSI's in-house ticketing system using Angular",
-            "We utilized scrum to stay on task in a team of 10 interns",
-            "Debugged existing and new code"
+        "shortDescription": [
+            "I worked in a small intern team on projects like refactoring large C# code bases and developing front ends using Angular."
+        ],
+        "moreDetails": [
+            "Renewed a client’s back-end code base for truckload shipment tracking by refactoring, testing, and debugging legacy C# code that contains over 2,000 live API connections",
+            "Refreshed EDSI’s in-house employee ticketing system’s front-end using Angular 4",
+            "Gained industry experience using version control, scrum, Angular, and C# to develop enterprise-level software"
         ],
         "technologies": [
             "TFS",
@@ -39,7 +75,10 @@
             "C#",
             "HTML",
             "CSS",
-            "TypeScript"
+            "TypeScript",
+            "Angular Material",
+            "Scrum",
+            "Test Driven Development"
         ]
   }
 ]

@@ -1,0 +1,25 @@
+.card {
+    margin-bottom: 3rem;
+}
+
+.card-title {
+    font-size: 20px;
+}
+
+.card-subtitle {
+    font-size: 16px;
+}
+
+.card-date {
+    font-size: 14px;
+}
+
+.card-linka {}
+
+.container {
+    margin-bottom: 4rem;
+}
+
+.card-header {
+    max-height: 40px;
+}

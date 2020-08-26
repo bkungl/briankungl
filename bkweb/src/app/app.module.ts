@@ -25,7 +25,8 @@ import { PortfolioComponent } from './resume/portfolio/portfolio.component';
 import { LearningComponent } from './resume/learning/learning.component'; 
 import {MatMenuModule} from '@angular/material/menu';
 import { ContactComponent } from './contact/contact.component';
-import { AboutComponent } from './about/about.component'; 
+import { AboutComponent } from './about/about.component';
+import { ExperienceComponent } from './resume/base/experience/experience.component'; 
 
 
 @NgModule({
@@ -43,7 +44,8 @@ import { AboutComponent } from './about/about.component';
     PortfolioComponent,
     LearningComponent,
     ContactComponent,
-    AboutComponent
+    AboutComponent,
+    ExperienceComponent
   ],
   imports: [
     BrowserModule,
