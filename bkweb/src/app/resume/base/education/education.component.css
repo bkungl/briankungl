@@ -7,3 +7,14 @@
 .container {
     margin-bottom: 3rem;
 }
+
+.card {
+    margin-top: 20px;
+}
+
+.gradient {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 121, 61, 0.717506985704438) 52%, rgba(0, 212, 255, 1) 100%);
+
+    color: white;
+}
