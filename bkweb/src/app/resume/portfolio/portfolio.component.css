@@ -1,0 +1,46 @@
+.jumbotron {
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+
+.gradient {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 121, 61, 0.717506985704438) 52%, rgba(0, 212, 255, 1) 100%);
+
+    color: white;
+}
+
+.btn {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 121, 61, 0.717506985704438) 52%, rgba(0, 212, 255, 1) 100%);
+
+    color: white;
+}
+
+
+.introduction {
+
+
+    margin-top: -20px;
+}
+
+.card-header {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 121, 61, 0.717506985704438) 52%, rgba(0, 212, 255, 1) 100%);
+
+    color: white;
+
+}
+
+.card-header h2 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.cardlayout {
+    margin-top: 1rem;
+}
+
+.card {
+    margin-bottom: 50px;
+}
