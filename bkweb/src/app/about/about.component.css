@@ -1,9 +1,11 @@
-.hold {}
+.hold {
+    max-width: 96vw;
+}
 
 .section1 {
 
     margin-top: -15px;
-    min-height: 88vh;
+    height: 88vh;
     /*min-width: 100vh;*/
 
 }
@@ -70,6 +72,18 @@
 
 .section2 {
     margin-top: 2px;
+    height: 100vh;
+    width: 99vw;
+
+    background-image: url(../../assets/eye.JPG);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+section2 {
+    height: 100vh;
 }
 
 .carusel-item {}
@@ -118,8 +132,26 @@
     color: white;
 }
 
+
+.section4 {
+    margin-top: 2px;
+    height: 100vh;
+    width: 99vw;
+
+    background-image: url(../../assets/pair.JPG);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
 /* Tablet Portrait size to standard 960 (devices and browsers) */
 @media only screen and (min-width: 768px) and (max-width: 959px) {
+
+    .section1 {
+        background-color: red;
+    }
+
     .shortbio {
         margin-top: 10px !important;
     }
@@ -131,9 +163,19 @@
     .imgt {
         width: 100%;
     }
+
+    .section3 {
+        border-width: 10px;
+        margin-left: 10% !important;
+    }
 }
 
-
+/* For tablets: */
+@media only screen and (min-width: 600px) and (max-width: 768) {
+    .section1 {
+        min-height: 850px;
+    }
+}
 
 /* All Mobile Sizes (devices and browser) */
 @media only screen and (max-width: 767px) {
@@ -152,4 +194,98 @@
         width: 100%;
     }
 
+    .section3 {
+        margin-left: 3%;
+    }
+
+}
+
+/*should be laptop and bigger*/
+@media only screen and (min-width: 768px) {
+    .section3 {
+        margin-left: 3%;
+    }
+
+    .section1 {
+        max-height: 88vh;
+    }
+}
+
+
+
+/*browser windows*/
+.desktop {
+    background: #bfbfbf;
+    border: solid #bfbfbf;
+    border-top-width: 10px;
+    border-bottom-width: 4px;
+    border-radius: 10px;
+    height: 400px !important;
+    margin: auto;
+
+
+    width: 400px !important;
+}
+
+.desktop img {
+    width: 100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+/* Circles */
+#circles {
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.circle {
+    width: 12px;
+    height: 12px;
+    background: black;
+    border-radius: 100%;
+    display: inline-block;
+
+    margin-right: 5px;
+}
+
+#c1 {
+    background: #FCB0AC;
+}
+
+#c2 {
+    background: #FEE48E;
+}
+
+#c3 {
+    background: #E3EFC6;
+}
+
+.section3 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.card-img-top {
+    /*width: 80% !important;
+    margin-left: 10%;
+*/
+    width: 80% !important;
+}
+
+.card {
+    height: 350px !important;
+}
+
+.udelimg {
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+
+.del {}
+
+.city {
+    /* margin-right: -30px;*/
 }
