@@ -197,7 +197,7 @@ section2 {
 @media only screen and (min-width: 721px) and (max-width: 960px) {
 
     .section1 {
-        min-height: 1000px !important;
+        min-height: 1050px !important;
     }
 
     .shortbio {
@@ -238,7 +238,8 @@ section2 {
 /*big monitor*/
 @media only screen and (min-width: 991px) {
     .section1 {
-        margin-top: 12% !important;
+        margin-top: 8% !important;
+        max-height: 80vh;
     }
 
     .section1 .shortbio {
