@@ -5,7 +5,7 @@
 .section1 {
 
     margin-top: -15px;
-    height: 94vh;
+    min-height: 94vh;
     /*min-width: 100vh;*/
 
 }
@@ -136,7 +136,7 @@ section2 {
 .section4 {
     margin-top: 2px;
     height: 100vh;
-    width: 99vw;
+    width: 100vw;
 
     background-image: url(../../assets/pair.JPG);
     background-size: cover;
@@ -145,7 +145,57 @@ section2 {
     background-attachment: fixed;
 }
 
-/*tiny sizes*/
+/*desktop browser window objects*/
+.desktop {
+    background: #bfbfbf;
+    border: solid #bfbfbf;
+    border-top-width: 10px;
+    border-bottom-width: 4px;
+    border-radius: 10px;
+    height: 400px !important;
+    margin: auto;
+
+
+    width: 400px !important;
+}
+
+.desktop img {
+    width: 100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+/* Circles */
+#circles {
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.circle {
+    width: 12px;
+    height: 12px;
+    background: black;
+    border-radius: 100%;
+    display: inline-block;
+
+    margin-right: 5px;
+}
+
+#c1 {
+    background: #FCB0AC;
+}
+
+#c2 {
+    background: #FEE48E;
+}
+
+#c3 {
+    background: #E3EFC6;
+}
+
+
+
+/*mobile sizes*/
 @media only screen and (max-width: 540px) {
     .shortbio {
         margin-top: 50px !important;
@@ -155,14 +205,32 @@ section2 {
         margin-left: 10px !important;
     }
 
+    .desktop {
+        width: 300px !important;
+
+    }
+
     .del {
         margin-top: 50px !important;
     }
+
+    .section1 p {
+        font-size: 14px !important;
+    }
+
+    .section4 {
+        background-image: url(../../assets/pair%20copy.JPG);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
 }
 
 
 
-/*  Mobile Sizes */
+/*  just bigger than mobile Sizes */
 @media only screen and (min-width: 541px) and (max-width: 720px) {
 
     .shortbio {
@@ -246,53 +314,7 @@ section2 {
 }
 
 
-/*browser windows*/
-.desktop {
-    background: #bfbfbf;
-    border: solid #bfbfbf;
-    border-top-width: 10px;
-    border-bottom-width: 4px;
-    border-radius: 10px;
-    height: 400px !important;
-    margin: auto;
 
-
-    width: 400px !important;
-}
-
-.desktop img {
-    width: 100%;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-}
-
-/* Circles */
-#circles {
-    margin-left: 5px;
-    margin-bottom: 5px;
-}
-
-.circle {
-    width: 12px;
-    height: 12px;
-    background: black;
-    border-radius: 100%;
-    display: inline-block;
-
-    margin-right: 5px;
-}
-
-#c1 {
-    background: #FCB0AC;
-}
-
-#c2 {
-    background: #FEE48E;
-}
-
-#c3 {
-    background: #E3EFC6;
-}
 
 .section3 {
     margin-top: 50px;
