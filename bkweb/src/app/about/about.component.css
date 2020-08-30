@@ -203,6 +203,7 @@ section2 {
 
     .section3 {
         margin-left: 10px !important;
+
     }
 
     .desktop {
@@ -218,12 +219,12 @@ section2 {
         font-size: 14px !important;
     }
 
+    .section2 {
+        max-height: 0px !important;
+    }
+
     .section4 {
-        background-image: url(../../assets/pair%20copy.JPG);
-        background-size: cover;
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
+        max-height: 0px !important;
     }
 
 }
