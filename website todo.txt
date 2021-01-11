@@ -1,0 +1,18 @@
+Tasks
+- COMMENTED IT OUT update skills section
+- update front page
+- change front page images from div backgrounds to resizeable images
+- design graphic images for the front page
+- update routes so you can go directly to /resume etc
+- implement sign in system / authentication protocols
+- implement blog page
+
+
+
+
+Thoughts
+Need to flesh out the program and turn it from a an Angular project to a MEAN stack...
+M - Mongodb... hold users/passwords, blog posts, etc
+E - Express... link the DB to the front end
+A - Angular... Use Angular's features more than just writing components
+N - Node.js... host the server on AWS server arch, not a s3 bucket
