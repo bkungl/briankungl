@@ -1,5 +1,26 @@
 [
     {
+        "jobId": 4,
+        "jobTitle": "Security Engineer",
+        "employer": "Hyland Software",
+        "location": "Westlake, OH",
+        "startDate": "November 16, 2020",
+        "endDate": "Current",
+        "shortDescription": [
+            "I am a member of the application security team tasked with securing internal products and creating security knowledge and guidance."
+        ],
+        "moreDetails": [
+            "Became a Checkmarx Certified Engineer in order to better lead static analysis efforts on Hyland software",
+            "Assisted development teams in threat modeling their product in order to classify security vulnerabilities"
+        ],
+        "technologies": [
+            "SAST",
+            "C#",
+            "Checkmarx",
+            "Microsoft Threat Modeling Tool"
+        ]
+  },
+    {
         "jobId": 1,
         "jobTitle": "Web Developer",
         "employer": "D150 Fueling, LLC",
@@ -27,7 +48,7 @@
   },
 
     {
-        "jobId": 1,
+        "jobId": 2,
         "jobTitle": "Software Researcher",
         "employer": "Univeristy of Delaware Vertically Integrated Projects",
         "location": "Newark, DE",
