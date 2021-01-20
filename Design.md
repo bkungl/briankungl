@@ -44,7 +44,6 @@ CRUP Operations:
 Blog post functionality:
 Can have text and images at this time. Stored in DB:
 C: Comment
-Ds: BPID, BlogContentID, Type (text or image), Contents (text or a url)
-      if type=text, append to <p>. if type=image, append to <img>
+Ds: BPID, BlogContentID, Type (text or image), Contents (text or a url); if type=text, append to <p>. if type=image, append to <img>
   
  
