@@ -47,8 +47,8 @@ Blog edit page:
 - making a post hidden: update ishidden field
 
 
-Methods | URLs | Actions
-| :------------- | :----------: | -----------: |
+**Methods | URLs | Actions**
+| :------------- | :---------- | :----------- |
 | Get | api/blogs | Gets all blog data (minus starred blog?)|
 | Put | api/blogs/:id/:BlogContentID | Updates the blog paragraph or image |
 | DELETE | api/blogs/:id/BlogContentID | Deletes the blog paragraph or image |
