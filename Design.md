@@ -49,7 +49,13 @@ Blog edit page:
 
 Methods | URLs | Actions
 | :------------- | :----------: | -----------: |
-| test | test2 | test3|
+| Get | api/blogs | Gets all blog data (minus starred blog?)|
+| Put | api/blogs/:id/:BlogContentID | Updates the blog paragraph or image |
+| DELETE | api/blogs/:id/BlogContentID | Deletes the blog paragraph or image |
+| Get | api/blogs?isStarred=[true] | Gets the blog post that is currently starred |
+| Put | api/blogs/:id/ | (Called twice) Flips the IsStarred Value |     TODO find a way to make this work without having to update the entire document in mongo
+More...
+
 
 
 ## Security
