@@ -31,14 +31,30 @@ C: Blog Post
 
 ## Express
 https://bezkoder.com/angular-10-mongodb-node-express/
-CRUP Operations:
-- Create blog post
-- update blog post
-- star post (make the display, need to find current starred and remove star)
-- Edit blog post
-- Make post hidden (change IsHidden to false, don't show on blog page)
-       Can't hide a blog if its currently set to starred
+# Organized CRUD:
+Home page:
+- select statements for displaying the data + images
 
+Blog view page:
+- selects to create posts
+
+Blog edit page:
+- selects to get data
+- update to change data
+- select to get metadata (ishidden, isstarrred, etc)
+- NO delete post, only delete paragraph/image
+- staring a post: select star, update star (for old and new)
+- making a post hidden: update ishidden field
+
+
+Methods | URLs | Actions
+-------------------------
+| test | test2 | test3|
+--------------------------
+
+
+## Security
+https://bezkoder.com/mean-stack-authentication-angular-10/
 
 
 Blog post functionality:
