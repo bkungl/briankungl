@@ -10,6 +10,16 @@ var corsOptions = {
 
 app.use(cors(corsOptions));
 
+// parse requests of content-type - application/json
+app.use(bodyParser.json());
+
+// parse requests of content-type - application/x-www-form-urlencoded
+app.use(bodyParser.urlencoded({
+    extended: true
+}));
+
+
+
 const db = require("./app/models");
 db.mongoose
     .connect(db.url, {
@@ -25,20 +35,27 @@ db.mongoose
     });
 
 
-// parse requests of content-type - application/json
-app.use(bodyParser.json());
 
-// parse requests of content-type - application/x-www-form-urlencoded
-app.use(bodyParser.urlencoded({
-    extended: true
-}));
 
 // simple route
 app.get("/", (req, res) => {
-    res.json({
+    /*res.json({
         message: "Welcome to website application."
-    });
+    });*/
+    db.blogs.find()
+        .then(data => {
+            res.send(data);
+        })
+        .catch(err => {
+            res.status(500).send({
+                message: err.message || "Some error occurred while retrieving tutorials."
+            });
+        });
 });
+
+
+//api routes
+require("./app/routes/blog.routes")(app);
 
 // set port, listen for requests
 const PORT = process.env.PORT || 8080;
