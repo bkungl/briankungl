@@ -1,6 +1,6 @@
-# Design Document for Website Planning
+### Design Document for Website Planning
 
-### Home Page
+## Home Page
 Home Landing:
 - about me (info, picture, socials, details)
 - clickable unis
@@ -10,7 +10,7 @@ Home Landing:
 
 
 
-### Blog Page
+## Blog Page
 Home Page:
 - featured componenet
 - search bar
@@ -20,7 +20,7 @@ Home Page:
 
 
 
-### Database Stuff
+## Database Stuff
 Document unless specified
 
 C: Resume
@@ -29,9 +29,9 @@ C: Blog Post
 - BlogID, BlogTitle, IsStarred, Comments (show where comment.bpid = blogid), IsHidden
 
 
-### Express
+## Express
 https://bezkoder.com/angular-10-mongodb-node-express/
-#### Organized CRUD:
+# Organized CRUD:
 Home page:
 - select statements for displaying the data + images
 
@@ -58,7 +58,7 @@ More...
 
 
 
-### Security
+## Security
 https://bezkoder.com/mean-stack-authentication-angular-10/
 
 
