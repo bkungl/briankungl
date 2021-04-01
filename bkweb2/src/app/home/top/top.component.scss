@@ -1,0 +1,38 @@
+.container{
+    margin: -8px;
+    height: 100vh;
+    background-color: black;
+}
+
+.background{
+    z-index: -1;
+    
+    
+    .img{
+        max-height: 100vh;
+        min-width: 100vw;
+        filter: grayscale(100%) brightness(60%);
+ 
+    }
+}
+
+.jumboheader{
+    padding-top: 25vh;
+    
+    
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.nameheading{
+    font-size: 10vw;
+    color: white;
+    text-align: center;
+}
+
+.subheadings{
+    font-size: 3vw;
+    color: white;
+    text-align: center;
+}
