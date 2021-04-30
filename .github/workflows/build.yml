@@ -37,12 +37,14 @@ jobs:
           #AWS_S3_BUCKET: ${{ env.AWS_S3_BUCKET_NAME }}
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        
+        #https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3/cp.html
         run: |
           aws s3 cp \
             --recursive \
             --region us-east-2 \
             #https://docs.aws.amazon.com/cli/latest/userguide/cli-services-s3-commands.html
             # [dist folder] s3://[s3 bucket name]
-            briankungl/src s3://briankungl.com
+            dist s3://briankungl.com
 
  
