@@ -39,12 +39,12 @@ jobs:
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         
         #https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3/cp.html
+        #https://docs.aws.amazon.com/cli/latest/userguide/cli-services-s3-commands.html
+        # [dist folder] s3://[s3 bucket name]
         run: |
           aws s3 cp \
             --recursive \
             --region us-east-2 \
-            #https://docs.aws.amazon.com/cli/latest/userguide/cli-services-s3-commands.html
-            # [dist folder] s3://[s3 bucket name]
             dist s3://briankungl.com
 
  
