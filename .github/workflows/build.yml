@@ -45,6 +45,6 @@ jobs:
           aws s3 cp \
             --recursive \
             --region us-east-2 \
-            ./dist s3://briankungl.com
+            ./dist/bkweb s3://briankungl.com
 
  
