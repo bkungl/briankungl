@@ -2,6 +2,10 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.1.
 
+## Auto Build + Deploy
+This project is configured to build and deploy to Amazon S3 buckets using GitHub Actions. A push will trigger the action and the S3 bucket which contains the documents for briankungl.com is updated. 
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
